@@ -1,0 +1,22 @@
+{
+  "name": "joyas-api",
+  "version": "1.0.0",
+  "description": "API REST para la tienda de joyas My Precious Spa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["api", "express", "postgresql", "joyas"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
